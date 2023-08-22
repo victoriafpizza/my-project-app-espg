@@ -1,10 +1,24 @@
-import React from 'react'
+import React from "./componentes/header"
 
 export default function App() {
   return (
-    <h1>App</h1>
-    <React.Fragment>
-      <P>Ola mundo</P>
-    </React.Fragment>
+    <>
+      <div className="container">
+        <cabecalho></cabecalho>
+        <header>
+          <h1>Vite + React</h1>
+        </header>
+
+        <section>
+          {}
+          <p>
+            <a href="/">Home Page</a>
+            <button onClick={()=> alert ("Hello Word")}>
+              </p>Click
+              </button>
+          </p>
+        </section>
+      </div>
+    </>
   )
 }
