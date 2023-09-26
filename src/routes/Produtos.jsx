@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ListaProdutosExterna } from "../components/ListaProdutosExterna";
 import { Link } from "react-router-dom";
+import styles from "./Produtos.module.css
 
 export default function Produtos() {
 
@@ -28,6 +29,7 @@ export default function Produtos() {
                   <th>EDITAR</th>
                 </tr>
               </thead>
+
               <tbody>
                 {
                   listaProdutosLocal.map((item,indice)=>(
@@ -41,6 +43,7 @@ export default function Produtos() {
                   ))
                 }
               </tbody>
+              
               <tfoot>
                 <tr>
                   <td colSpan={5}>PRODUTOS INFORMÁTICOS - QTD = </td>

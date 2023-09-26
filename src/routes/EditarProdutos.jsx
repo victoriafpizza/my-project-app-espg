@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  
 `;
- from 'react'
+
 import { useParams } from 'react-router-dom';
 
 export default function EditarProdutos() {
