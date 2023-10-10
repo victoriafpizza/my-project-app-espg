@@ -1,15 +1,15 @@
-export default function Conteudo(props) {
+// export default function Conteudo(props) {
     //Área declarativa
   
-    return (
+    // return (
       <>
         <section>
           <p>
             <a href="/">Home Page</a>
           </p>
           <button onClick={() => alert("Hello World!")}>Click Me!</button>
-          <img src={props.reactLogoProps} alt={props.reactLogoAltProps} />
+          {/* <img src={props.reactLogoProps} alt={props.reactLogoAltProps} /> */}
         </section>
       </>
-    );
-  }
+    // );
+  // }
