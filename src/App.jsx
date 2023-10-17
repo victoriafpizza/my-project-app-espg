@@ -1,14 +1,11 @@
-import Cabecalho from "./components/Cabecalho";
+import Cabecalho from "./components/Cabecalho/Cabecalho";
 import Rodape from "./components/Rodape";
 import { Outlet } from "react-router-dom";
-import styles from "./App.module.css";
 
 export default function App() {
 
 
   //Lista de links redes sociais
-
-  let listaLinks =[<li>Github</li>, <li>X</li>, <li>Reddit</li> ];
 
   return (
     <>
@@ -16,7 +13,7 @@ export default function App() {
 
         <Cabecalho/>
         <Outlet/>
-        <Rodape listaProps={listaLinks}/>
+        <Rodape/>
 
       </div>
     </>
